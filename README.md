@@ -1,8 +1,40 @@
-# React + Vite
+# Chatbot 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple chatbot built using **React + Vite**, created as a learning project to explore various React concepts like components, props, and state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- 🧩 Modular structure — different components for different parts of the UI  
+- 📅 Tells today’s date  
+- 🪙 Can flip a coin  
+- 🎲 Can roll a dice  
+- 💬 Responses are powered by an NPM package  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** — Component-based UI  
+- **Vite** — Fast and modern build tool  
+- **NPM package** — Used for chatbot responses  
+
+---
+
+## 🌐 Live Demo
+
+Check it out here: [Live Link](https://im-anuj.github.io/chatbot/)  
+
+---
+
+## 💡 What I Learned
+
+- Building and structuring React components  
+- Managing state and props effectively  
+- Using external NPM packages  
+- Understanding event handling in React  
+
+---
+
+Built with **love**, **React**, and a lot of **curiosity to learn**, by Anuj Rawat❤️.
