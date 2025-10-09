@@ -1,6 +1,5 @@
 .send-button, .clear-button {
   padding: 12px 20px;
-  margin-left: 10px;
   border: none;
   border-radius: 10px;
   font-size: 15px;
@@ -23,14 +22,48 @@
   font-size: 15px;
 
   flex-grow: 1;
+  width: 100%;
 }
 
 .chat-input-container {
   display: flex;
   margin-bottom: 60px;
+  gap: 10px;
 }
 
 .loading-spinner {
   height: 40px;
   margin: -15px;
+}
+
+@media (max-width: 768px) {
+  .send-button, .clear-button {
+    padding: 10px 15px;
+    /* font-size: 14px; */
+  }
+  
+  .chat-input {
+    padding: 10px 12px;
+    /* font-size: 14px; */
+  }
+
+  .chat-input-container {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .send-button, .clear-button {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  .chat-input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .chat-input-container {
+    gap: 6px;
+  }
 }
